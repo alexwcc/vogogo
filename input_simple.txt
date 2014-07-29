@@ -1,0 +1,9 @@
+apple 50 1 25
+eggs 40 1 20
+orange 50 2 75
+frog 50
+oil 15 2 25
+salad 200
+flour 100 2 150
+berry 75
+steak 500 1 400
