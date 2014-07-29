@@ -18,7 +18,7 @@ purposes.
 
 Using the examples in the question, the following could be pricing for those examples:
 1) Apples are normally $0.50, but buy three and get them for $1.30:
-	apple 500 3 130
+	apple 50 3 130
 2) Buy one, get another half off
 	ITEMNAME 300 2 450
 3) Half off oranges
@@ -26,7 +26,7 @@ Using the examples in the question, the following could be pricing for those exa
 
 The extra feature that I added after my first draft was the ability to have multiple pricing rules. The format to input the pricing is the same, for example:
 1) Apples are $0.50 each. Buy 3 for $1.25 or buy 5 for $2:
-	apple 500 3 125 5 200
+	apple 50 3 125 5 200
 
 I also added the functionality to tell the user when they can get a better deal. For example: If apples are $0.50 each and the special is 4 for $1, but the user 
 buys 3, it will tell charge them $1.50 but let them know that they can get a better deal by adding one more apple. Lastly, if there is an item in the customer list but not in the store list, it will tell the user to put the item back as it is out of stock.
